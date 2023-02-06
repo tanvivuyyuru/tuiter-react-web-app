@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+    margin-left: 16px;
+}
+.wd-bookmark-title {
+    border-left-width: 16px;
+    border-top-width: 12px;
+    font-size: 20px;
+    color: white;
+}
+.wd-webdev-handle {
+    color: lightgray;
+    font-size: 13px;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+}
+.wd-avatar {
+    margin-left: 16px;
+    margin-top: 12px;
+    width: 48px;
+    height:48px;
+}
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+.wd-author {
+    font-size: 15px;
+    color: white;
+}
+.wd-author-handle {
+    font-size: 15px;
+    color:gray;
+}
+.wd-inline {
+    display: inline;
+}
+.wd-content {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+.wd-image-below-content {
+    width: 504px;
+    height: 264px;
+    margin-left: 12px;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.wd-bold-title {
+    color: white;
+    margin-top: 12px;
+    font-size: 15px;
+    padding: 12px;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.wd-text-below-title {
+    color:gray;
+    font-size: 15px;
+    padding: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+
