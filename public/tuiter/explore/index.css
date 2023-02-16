@@ -1,8 +1,4 @@
-body {
-    background-color: black;
-    border-color: rgb(47, 51, 54);
-    margin-left: 16px;
-}
+
 .wd-background-grey {
     background-color: darkgray;
     color: white;
@@ -70,6 +66,117 @@ body {
 }
 .wd-inline {
     display: inline;
+}
+
+.wd-more-icon {
+    top: 9px;
+    left: 3px;
+}
+
+.wd-search-icon2 {
+    bottom: 12px;
+    left: 25px;
+}
+
+.wd-blue {
+    color: #0275d8;
+}
+
+.wd-text-above-img {
+    bottom: 3px;
+    left: 22px;
+}
+
+.wd-search-icon {
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 12px);
+    pointer-events: none;
+    color: #585858;
+    z-index: 3;
+}
+
+.wd-settings-icon {
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+.wd-caption {
+    position: relative;
+    bottom: 1px;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+.wd-icon-style {
+    display: flex;
+    flex-direction: row;
+    text-align: center
+}
+
+.wd-trend-style {
+    display: flex;
+    flex-direction: column;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+input {
+    text-indent: 25px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.wd-gray-text {
+    font-size: 13px;
+    color: #5F6368;
+    font-weight: normal;
+}
+
+.wd-big-text {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.wd-follow-text {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wd-small-text {
+    font-size: 14px;
+    color: #1e1e1e;
 }
 
 
