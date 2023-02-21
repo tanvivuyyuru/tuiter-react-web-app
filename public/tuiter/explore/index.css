@@ -1,4 +1,4 @@
-
+/*
 .wd-background-grey {
     background-color: darkgray;
     color: white;
@@ -178,5 +178,25 @@ body {
     font-size: 14px;
     color: #1e1e1e;
 }
+*/
+.wd-search{
+    bottom: 12px;
+    left: 25px;
+}
 
+.wd-gear {
+    color: #2a9fd6;
+}
+
+.wd-text {
+    bottom: 3px;
+    left: 10px;
+    color: #222;
+    font-weight: bold;
+}
+
+.wd-more {
+    top: 3px;
+    left: 2px;
+}
 

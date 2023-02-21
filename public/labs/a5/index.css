@@ -1,0 +1,18 @@
+.class-0 {
+    color: white;
+    background-color: red;
+}
+
+.class-1 {
+    color: white;
+    background-color: blue;
+}
+
+.class-2 {
+    background-color: green;
+    color: yellow;
+}
+
+.im-hidden {
+    display: none;
+}
