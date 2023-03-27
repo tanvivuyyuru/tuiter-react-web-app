@@ -1,14 +1,15 @@
+import Nav from "../nav";
 import Assignment6 from "./a6";
-import {Link}
-    from "react-router-dom";
-
+import Assignment7 from "./a7";
+import {Routes, Route} from "react-router";
 function Labs() {
-    return(
+    return (
         <div>
-            <Link to="/">Lab</Link> |
-            <Link to="/hello">Hello</Link> |
-            <Link to="/tuiter">Tuiter</Link>
-            <Assignment6/>
+            <Nav/>
+            <Routes>
+                <Route index element={<Assignment6/>}/>
+                <Route path="a7" element={<Assignment7/>}/>
+            </Routes>
         </div>
     );
 }
