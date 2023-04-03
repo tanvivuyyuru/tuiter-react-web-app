@@ -35,12 +35,12 @@ const TuitStats = (
             </div>
             <div className="text-secondary float-start col col-3">
                 <a href="#" className="text-decoration-none">
-                    {tuit.disliked && <i className="bi bi-heartbreak-fill text-secondary text-danger" onClick={() => dispatch(updateTuitThunk({
+                    {tuit.disliked && <i className="bi bi-hand-thumbs-down-fill text-secondary text-danger" onClick={() => dispatch(updateTuitThunk({
                         ...tuit,
                         disliked: !tuit.disliked,
                         dislikes: tuit.dislikes - 1
                     }))}></i>}
-                    {!tuit.disliked && <i className="bi bi-heartbreak text-secondary" onClick={() => dispatch(updateTuitThunk({
+                    {!tuit.disliked && <i className="bi bi-hand-thumbs-down text-secondary" onClick={() => dispatch(updateTuitThunk({
                         ...tuit,
                         disliked: !tuit.disliked,
                         dislikes: tuit.dislikes + 1
